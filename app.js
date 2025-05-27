@@ -88,12 +88,12 @@ function verificarIMC(){
 }
 */
 let listaNumerosSorteados = [];
-let numeroMaximo = 3
+let numeroMaximo = 100
 let tentativa = 1
 exibirMensagemInicial()
 function exibirMensagemInicial(){
     exibirTextoNaTela("h1", "Bem vindo ao jogo do número secreto!")
-    exibirTextoNaTela("p", "Escolha um número entre 1 e 10: ")
+    exibirTextoNaTela("p", "Escolha um número entre 1 e 100: ")
 }
 function exibirTextoNaTela(tag, texto){
     let campo = document.querySelector(tag)
