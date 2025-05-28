@@ -1,10 +1,10 @@
 let listaNumerosSorteados = [];
-let numeroMaximo = 30
+let numeroMaximo = 50
 let tentativa = 1
 exibirMensagemInicial()
 function exibirMensagemInicial(){
     exibirTextoNaTela("h1", "Bem vindo ao jogo do número secreto!")
-    exibirTextoNaTela("p", "Escolha um número entre 1 e 30: ")
+    exibirTextoNaTela("p", "Escolha um número entre 1 e 50: ")
 }
 function exibirTextoNaTela(tag, texto){
     let campo = document.querySelector(tag)
